@@ -1,0 +1,19 @@
+composer:
+  last: Hofmann
+  first: Leopold
+title: Missa
+id: ProH 27
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (\flat E), timp (\flat E–\flat B), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 106
+    rism: 600037904
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/560.html
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in \flat E\\Timpani in \flat E–\flat B
