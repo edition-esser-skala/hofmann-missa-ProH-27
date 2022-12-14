@@ -4,10 +4,12 @@
 #(define option-init-toc #t)
 #(define option-print-all-bar-numbers #t)
 \include "ees.ly"
+% \include "articulate_ees.ly"
 
 
 tempoKyrie = \tempoMarkup "Adagio"
-tempoKyrieB = \tempoMarkup "Allegro"
+  tempoKyrieB = \tempoMarkup "Allegro"
+tempoGloria = \tempoMarkup "Allegro moderato"
 
 
 \include "notes/clno1.ly"

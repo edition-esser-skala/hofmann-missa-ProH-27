@@ -111,3 +111,363 @@ KyrieTenoreLyrics = \lyricmode {
   e -- lei --
   son. %62 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \major \time 3/4 \autoBeamOff \tempoGloria
+    \mvTr b4.\fE^\tutti b8 b b
+    b2 b4
+    es2 es4
+    d r r
+    b2.\p %5
+    b
+    a
+    as
+    as4 as r
+    des2. %10
+    ces
+    c
+    ces?
+    c4 b r
+    g\f g g %15
+    as as as
+    as4. as8 as4
+    g g c
+    c2 c4
+    b4. b8 b4 %20
+    b b( a8.) a16
+    b4 r r
+    R2.*5 %27
+    b4. b8 b4
+    c4. c8 d4
+    d d r %30
+    a2 a4
+    b2 b4
+    c4. c8 d4
+    d2.
+    d4 r r %35
+    R2.
+    d4. d8 d4
+    d2 d4
+    es2 d4
+    c h r %40
+    c2 c4
+    c2 b!4
+    b b4. b8
+    c4 r r
+    c4. c8 c4 %45
+    d4. d8 d d
+    c4. c8 c4
+    d2 c4
+    c2.
+    h4 r r %50
+    h4. h8 h4
+    c2 c4
+    c2 c4
+    b! b r
+    b4. b8 b4 %55
+    b2.
+    b4 r r
+    R2.*5 %62
+    g2.\p
+    f
+    es2 g4 %65
+    f( g) g
+    g g r
+    g2.
+    g
+    f %70
+    a
+    g2\f g4
+    b2 b4
+    b( a2)
+    g4 r r %75
+    R2.
+    b\p
+    c
+    b2 b4
+    a( b8[ c)] d4 %80
+    d d r
+    d4. d8 d4
+    f!2 as,!4
+    b2 b4
+    b2\f b4 %85
+    b2.
+    b4 r r
+    R2.
+    es\p
+    es %90
+    e2 c4
+    d!4. d8 d4
+    c c r
+    e2.
+    e %95
+    f
+    es!
+    es2(\f d4)
+    c r r
+    R2. %100
+    g8. g16 g8 g g g
+    g4 g8 g g g
+    g8. g16 g4 c
+    c c b!
+    g c b %105
+    a2 b4
+    b2( a4)
+    b r r
+    R2.*7 %115
+    b4 g4. g8
+    c8. c16 a4. a8
+    d8. d16 b4. b8
+    es4 es es
+    es4. es8 d b %120
+    c([ f16 es] d8[ b c d)]
+    es4 r c8.([ b16]
+    as8.[ g16]) f4 d'8.([ c16]
+    b8.[ as16)] g4 es'8.[ d16]
+    c8.[ b16 as8. g16 f8. es16] %125
+    d4 d' \once \tieDashed es~
+    es c2
+    b4 r es8.([ d16)]
+    c4 r f8.([ es16)]
+    d4 r g8.[ f16] %130
+    es8.[ d16 c8. b16 a8. g16]
+    f4 a b~
+    b a2
+    b4 b8.[ a16] \tieDashed g4~
+    g c8.[ b16] a4~ %135
+    a d8.[ c16] b4~
+    b es8.[ d16 c8. b16] \tieSolid
+    a2 b4
+    b2.
+    a4 r d~ %140
+    d c8.[ b16] c4~
+    c b8.[ a16] b4~
+    b a r
+    R2.
+    b4 g4. g8 %145
+    c8. c16 a4. a8
+    d8. d16 b4. b8
+    es4. es8 es4
+    es4. es8 d b
+    c([ f16 es] d8[ b c d)] %150
+    es4 r g,
+    as r as
+    b r b
+    c2.
+    b2 b4 %155
+    c2.
+    d
+    es4 r c
+    c r d
+    d r es8.[ d16] %160
+    c8.[ b16 as8. g16 f8. es16]
+    f2 g4
+    r f2
+    f4 g2
+    g8 es'( f4. es8) %165
+    d4 es4.( d8)
+    c4 as8[( g] f[ g16 as]
+    b2.)
+    b
+    R2.*2 %171
+    b4 g4. g8
+    c8. c16 b4. b8
+    es4. b8 b4
+    c2 c4 %175
+    b b d
+    es f4. es8
+    d4 es4. d8
+    c4 d4. c8
+    \once \tieDashed b2.~ %180
+    b
+    b4( c) as
+    as8 c d8. d16 b4~
+    b8 b es8. es16 c4~
+    c8 c c4 c8 c %185
+    b4. b8 b4
+    c b2
+    b4 r b
+    b r b
+    b r r\fermata \bar "|." %190 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  Et in ter -- ra
+  pax ho --
+  mi -- ni --
+  bus
+  bo -- %5
+  nae
+  vo --
+  lun --
+  ta -- tis,
+  bo -- %10
+  nae
+  vo --
+  lun --
+  ta -- tis.
+  Lau -- da -- mus %15
+  te, be -- ne --
+  di -- ci -- mus
+  te, ad -- o --
+  ra -- mus
+  te, glo -- ri -- %20
+  fi -- ca -- mus
+  te.
+
+  Gra -- ti -- as %28
+  a -- gi -- mus
+  ti -- bi %30
+  pro -- pter
+  ma -- gnam
+  glo -- ri -- am
+  tu --
+  am, %35
+
+  Do -- mi -- ne
+  De -- us,
+  Rex coe --
+  le -- stis, %40
+  De -- us
+  Pa -- ter
+  o -- mni -- po --
+  tens,
+  Do -- mi -- ne %45
+  Fi -- li u -- ni --
+  ge -- ni -- te,
+  Je -- su
+  Chri --
+  ste, %50
+  Do -- mi -- ne
+  De -- us,
+  A -- gnus
+  De -- i,
+  Fi -- li -- us %55
+  Pa --
+  tris.
+
+  Qui %63
+  tol --
+  lis pec -- %65
+  ca -- ta
+  mun -- di:
+  Mi --
+  se --
+  re -- %70
+  re,
+  mi -- se --
+  re -- re
+  no --
+  bis. %75
+
+  Qui
+  tol --
+  lis pec --
+  ca -- ta %80
+  mun -- di:
+  Su -- sci -- pe
+  de -- pre --
+  ca -- ti --
+  o -- nem %85
+  no --
+  stram.
+
+  Qui
+  se -- %90
+  des ad
+  dex -- te -- ram
+  Pa -- tris:
+  Mi --
+  se -- %95
+  re --
+  re
+  no --
+  bis.
+  %100
+  Quo -- ni -- am tu so -- lus
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu
+  so -- lus al --
+  tis -- si -- mus, %105
+  Je -- su
+  Chri --
+  ste.
+
+  Cum San -- cto %116
+  Spi -- ri -- tu in
+  glo -- ri -- a, in
+  glo -- ri -- a
+  De -- i Pa -- tris, %120
+  a --
+  men, a --
+  men, a --
+  men, a --
+  _ %125
+  _ _ _
+  _
+  men, a --
+  men, a --
+  men, a -- %130
+  _
+  _ _ _
+  _
+  men, a -- _
+  _ _ %135
+  _ _
+  _
+  _ men,
+  a --
+  men, a -- %140
+  _ _
+  _ _
+  men,
+
+  cum San -- cto %145
+  Spi -- ri -- tu in
+  glo -- ri -- a, in
+  glo -- ri -- a
+  De -- i Pa -- tris,
+  a -- %150
+  men, a --
+  men, a --
+  men, a --
+  _
+  men, a -- %155
+  _
+  _
+  men, a --
+  men, a --
+  men, a -- %160
+  _
+  _ men,
+  a --
+  men, a --
+  men, a -- %165
+  men, a --
+  men, a --
+
+  men,
+
+  cum San -- cto %172
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De -- i %175
+  Pa -- tris, a --
+  _ _ _
+  _ _ _
+  _ _ _
+  _ %180
+
+  men, __ cum
+  San -- cto Spi -- ri -- tu __
+  in glo -- ri -- a, __
+  in glo -- ri -- a %185
+  De -- i Pa --
+  tris, a --
+  men, a --
+  men, a --
+  men. %190 finis
+}
