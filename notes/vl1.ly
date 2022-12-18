@@ -266,3 +266,250 @@ GloriaViolinoI = {
     <es, g,>4 r r\fermata \bar "|." %190 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoCredo
+    <g es' es'>4\f es'' es,16( f32 g as b c d) es16 g, b es
+    g es, g b es( g b g) g8.(\trill f32 g) f8 b,,
+    es16 g b es c es, b' es, c' es, es' es, b' es, es' c
+    \appoggiatura b4 as2\trill g4 b8 b
+    es4 \tuplet 6/4 4 { es16 g f es d es c' b a  g f es } d b' b d, %5
+    d8.(\trill c32 d) \tuplet 6/4 4 { c16 f, g a g f es' c b a g f } d'( b' c, es)
+    \tuplet 6/4 4 { d es f g a b } c,8 a' b,,16( c32 d es f g a) b16 d, f b
+    d f, b d \tuplet 6/4 4 { f es d d c b g' f es d c b } c4\trill
+    b16( c32 d es f g a) b16 b, b b b8.(\trill a32 b) a4
+    as16( b32 c d es f g) as16 as, as as as8.(\trill g32 as) g4 %10
+    b16( c32 d es f g as) b16 b, b b c( c,) c' c d( f g es)
+    g, es' es g, f8 d' es,16( f32 g as b c d) es16 g, b es
+    g b, es g b8.(\trill as32 b) \tuplet 6/4 4 { c16 b as g f es d c b as g f }
+    \sbOn \tuplet 3/2 8 { g f es } es' es, \sbOff f4\trillE g16( as32 b c d es f) g16 b, b b
+    h8.(\trill a32 h) h8.(\trill a32 h) \tuplet 6/4 4 { c16 d es es f g as g f es d c } %15
+    c8.(\trill h32 c) h4 c16( d32 es f g a h) c16 c, c c
+    as' as, as'32( g f es) d16 b b'32( as g f) g16 es, g'32( f es d) c16 as as'32( g f es)
+    f16 d, f'32( es d c) h16 g g'32( f es d) es16 g8 g g g16~
+    g g8 g g g16 \sbOn \tuplet 3/2 8 { fis c a } b g' \sbOff a,8 fis'
+    g,,16( a32 b c d e fis) g16 d g b d g, b d g8.(\trill fis32 g) %20
+    \tuplet 6/4 4 { fis16 a g fis es! d c es d c b a } \sbOn \tuplet 3/2 8 { b a g } g' g, \sbOff a4\trill
+    g16( a32 b c d e fis) g16 b, b b h8.(\trill a32 h) h8.(\trill a32 h)
+    c16( d32 es f g a h ) c16 c, d es d( es32 f g a h c) d16 f, es c'
+    es,8.(\trill d32 es) d4 es,16( f32 g a h c d) es16^\critnote es, es' es
+    es es, es' es d b'! c, es \tuplet 6/4 4 { d es f g a b } c,8 a' %25
+    b,,16( c32 d es f g a) b16 d, f b d b d f b d, d b'
+    b d, d b' b d, d b' b des, des b' b des, des b'
+    as c, c as' as c, c as' as b, b as' g( es b' g)
+    g8.(\trill f32 g) f8 b, es( d c b)
+    as16( b32 c d es f g) as16 as, as' as as( f d as) g( es' c as) %30
+    \tuplet 6/4 4 { g b as g f es } f8 d' es,16( f32 g as b c d) es16 g, b es
+    g b, es g b8.(\trill as32 b) \tuplet 6/4 4 { c16 b as g f es d c b as g f }
+    \sbOn \tuplet 3/2 8 { g f es } es' es, \sbOff f4\trill es'32( d c b as g f es) f8 d' \noBreak
+    es,4 r r2\fermata \bar "||"
+    \time 4/4 \tempoEtIncarnatus c16(\pE es h c) r c( g' c,) c( as' e f) r f( c' f,) \noBreak %35
+    f(\crescE h) h( d) d( f) f( as) as16. <h, d,>32\fE q8 r4
+    c16(\pE g) r as as( g) r h, c( es h c) r c( g' c,)
+    c( as' e f) r f( c' f,) f( d' h d) r as( g f)
+    f8 es c16( g' es g) e( des' b g) r e( des' e,)
+    f( c' as c) r c( as g) fis( es' c es) r es( c es) %40
+    d-!\cresc d-! d-! d-! d g g g g g g g fis\fE fis fis fis
+    g,(\p b fis g) r g( d' g,) g( es' h c) r c( g' c,)
+    c( b) b( a) a es'8 d32( c) b16( g') r es es( d) r fis,
+    g16(\fp d b d) g(\fp d b d) as'!(\fp d, h d) as'(\fp d, h d)
+    g(\fp es c es) g(\fp es c es) fis\fp( c a c) fis(\fp d a fis') %45
+    f(\fp d as d) f(\fp d as f') es(\fp c g c) es(\fp c g es')
+    f(\fp d? as f') es(\fp c a es') es(\fp c g c) d(\fp h g h) \noBreak
+    c1\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoEtResurrexit \newSpacingSection
+      es16(\fE b g b) es( b g' es) \noBreak
+    b'( g es g) b( g es' b) %50
+    g'( es) b-! b-! as'( f) b,-! b-!
+    g' es( d c) b( as g f)
+    g( es) b-! b-! as'( f) b,-! b-!
+    g' es'( d c) b as'( g f)
+    g es( d c) b( as g f) %55
+    \sbOn \tuplet 3/2 8 { g f es } es' es, \sbOff f4\trill
+    es g16( es b' g)
+    es' b g' es b'8 g
+    g\trill f b16( f d b)
+    b,8 as''16( f) f( d) d( as) %60
+    as8 g r b
+    es4 es8 es
+    c'16( a f es) d( f g es)
+    d( f b d,) c8 a'
+    b,4 r %65
+    R2
+    r4 b'16( f d b)
+    <es, b' g'>4 <d b' f'>
+    r8 d'16( f) f( b) b( d)
+    d f,( g f) c' es,( f es) %70
+    es4( d8) g,
+    es' c, es'8.(\trill d32 es)
+    f8 g,, d'''8. f,16
+    f4 es\trill
+    d r %75
+    es8 c, es'8.(\trill f32 g)
+    as8 f, as'8. \tuplet 3/2 16 { g32( f es) }
+    d8 b, d'8.(\trill es32 f)
+    g8 es, b'4\p
+    ces2~ %80
+    ces4 b~
+    b as~
+    as ges~
+    ges f8 es
+    d4 b'16(\f f d' b) %85
+    f'( d b d) f( d b' d,)
+    es( b g! b) es b g' es
+    c es d b' c,8 a'
+    b,16( f d f) b f d' b
+    f'( c a c) f( c a' f) %90
+    b( f d f) es( f c f)
+    d b'( a g) f( es d c)
+    \sbOn \tuplet 3/2 8 {  d c b } b' b, \sbOff c4\trill
+    b16( f d' b) f' d b' b,
+    b8.(\trill a32 b) a4 %95
+    c16( a f' c) a'( f c' es,)
+    es8.(\trill d32 es) d4
+    as'!16( f) f( d) f( d) d( as)
+    as8.(\trill g32 as) g4
+    fis16 a' a a a fis, fis fis %100
+    g g' g g a, g' b, g'
+    c,( a fis' c) a'( fis c a)
+    b g' a, b c a' b, g'
+    b,4\trillE a
+    b16 g' g g g( d b d) %105
+    h g' g g g( d h d)
+    c g' g g g( es c es)
+    d d' d d d( h g f)
+    es c' c c c es, d b'
+    d,4\trill c %110
+    a'16( fis d c) a( fis d c')
+    c( a) a( b) b g( fis g)
+    as! as as as g g g g
+    g g g g fis fis fis fis
+    g( d b d) g( d b' g) %115
+    d' a fis a d a fis' d
+    g d( c b) a' c,( b a)
+    b g( f es) d( c b a)
+    \sbOn \tuplet 3/2 8 { b a g } g' g, \sbOff a4\trill
+    g8 d'' d8.(\trill c32 d) %120
+    b'8 g,, r4
+    r8 fis' d'8.(\trill c32 d)
+    \kneeBeam c'8 d,, r4
+    r8 d' d8.(\trill c32 d)
+    b'8 g,, r4 %125
+    r8 g' es'8.(\trill d32 es)
+    c'8 f,, r es'
+    d16 f f f c f f f
+    b, b' b b b( g e b)
+    a f' f f f( es d c) %130
+    h as' as as as( f d h)
+    c g g g d'( g, es' g,)
+    f'4 es
+    r8 c\p c c
+    r c c c %135
+    r c c c
+    r c c c
+    r c c c
+    r c c c
+    r c c c %140
+    r c c es,
+    es4\trill d
+    g16(\f as f g) es( f d es)
+    c es' es es es( c g c)
+    es( c f, c') d( b f' d) %145
+    as'!( f) f( d) f( d) d( as)
+    as8 g r4\fermata
+    \tempoMortuorum r \tieDashed g~\p
+    g f
+    es8 f g4~ %150
+    g f8 es
+    d4 es
+    as2~
+    as4 g~ \tieSolid
+    g f8 es %155
+    f2\fermata
+    \tempoEtVitam es16(\f b g b) es( b g' es)
+    f( d b d) f( d b' f)
+    d'( b f b) d( b f' d)
+    es( b g es) g'( es b g) %160
+    as'( g f es) d( c b as)
+    g es( d es) es' es,( d es)
+    a( f c' a) f'( c a f)
+    b( f d f) b( f d' b)
+    c( a f a) c( a f' c) %165
+    a'( f c a) f'( c a f)
+    d' b f b d( b f' d)
+    es es,( f es) es' es,( f es)
+    d b( a b) c c'( d es)
+    f f, f f f f'( es f) %170
+    g( es b g) es'( b g es)
+    d( f b f) d'( b f' b,)
+    as'( g f es) d( c b as)
+    g g'( f g) es g,( f es)
+    f es'( d c) d as( g f) %175
+    g( b es f) g( f es d)
+    c( a f' c) a'( f c a)
+    b( f d f) b( f d' b)
+    a( f c f) a( f c' a)
+    es'( d c b) a( g f) es' %180
+    d( b f' d) b' d,( c b)
+    c b'( a g) a es( d c)
+    d( b f b) d( b f' d)
+    c( a f a) c a f' c
+    a f' f f f c( b a) %185
+    b( f d' b) f'( d b' f)
+    es( d c b) a( g f es)
+    d( f b c) d b( a b)
+    g( b c d) es c( b c)
+    a( f c' a) b b( c d) %190
+    es( es,) es'-! es-! es( d c d)
+    c( f, es' c) d( b b' d,)
+    f, d' b' d, c( a a' c,)
+    d,( c' a' c,) b g d' b
+    g' g,( a b) b( a) a( g) %195
+    fis( d g d) a'( d, fis d)
+    g( d a' d,) b' b'( a g)
+    fis( d a fis) d d'( fis a)
+    c( b a g) fis( e? d c)
+    b( d es d) g d( c b) %200
+    a( c b a) a' es( d c)
+    b d d d d( c) c( b)
+    b g( fis g) b( g d' b)
+    g' g, g' g g g, g' g
+    fis d( cis d) d, d'( cis d) %205
+    es g,( fis g) a es'( d c)
+    d fis,( g fis) g d'( c b)
+    c g( f e) f c'( d c)
+    h f( es d) g g, f' g,
+    es'( g c es) g( es c b) %210
+    as! f f' f f( d as f)
+    g( es') es-! es-! es( b) b-! b-!
+    b( as c b) as( f g es)
+    d( b f' d) as'( f d b)
+    es( b g b) es( b g' es) %215
+    f( d b d) f( d b' f)
+    d'( b f b) d( b f' d)
+    es( b g b) es( b f' b,)
+    g'( es b g) g'( f) f( es)
+    es( d c b) a( g f es) %220
+    d( f b c) d b( a b)
+    c c, c' c c f as! c,
+    b b, b' b b es g b,
+    as as' as as as as, as' as
+    as( g f es) d( c b as) %225
+    g( es b es) g( es b' g)
+    es'( b g b) es( b g' f)
+    es es, es' es es c( b c)
+    d b f d b b' b' b,
+    c b'( as! g) as c,( b as) %230
+    b as'( g f) g b,( as g)
+    as g'( f es) f as,( g f)
+    g b( c b) es g,( f es)
+    f es'( d c) d f,( g f)
+    es( b g b) es( b g' es) %235
+    b'( g es' b) as( f d b)
+    es( b g b) es( b g' es)
+    b'( g es' b) as( f d b)
+    <es g,>4 r\fermata \bar "|." %239 finis
+  }
+}

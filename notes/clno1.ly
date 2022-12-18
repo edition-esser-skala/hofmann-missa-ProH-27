@@ -106,3 +106,82 @@ GloriaClarinoI = {
     c r r\fermata \bar "|." %190 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    c'4\fE c r2
+    r8 e e e e4 d
+    r8 c c c c2
+    r4 d e r
+    R1*2 %6
+    r2 d4 r
+    R1
+    d4 r r2
+    R1 %10
+    c4 c8. c16 c4 r
+    e d8. d16 c4 r
+    R1*13 %25
+    d4 r r2
+    R1
+    r2 r4 r8 e
+    e4 d r2
+    R1 %30
+    e4 d c r
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 4/4 \tempoEtIncarnatus R1*13 \noBreak %47
+    R1\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoEtResurrexit \newSpacingSection
+      R2*9 %57
+    r8 e4\fE e8
+    e d r4
+    R2 %60
+    r8 c16 c c4
+    R2*5 %66
+    r4 g8. g16
+    g4 g
+    R2*9 %77
+    d'2
+    e4 r
+    R2*5 %84
+    r4 d8\fE d %85
+    d4. d8
+    c4 r
+    R2*58 %145
+    g8.\fE g16 g8 g
+    g g r4\fermata
+    \tempoMortuorum R2*8 %155
+    R2\fermata
+    \tempoEtVitam R2*14 %170
+    e'2\fE
+    d4 r
+    r r8 d
+    e4 r
+    R2 %175
+    e4 r
+    R2
+    d4 r
+    R2*4 %182
+    d4 r
+    R2*25 %208
+    e2
+    e4 r %210
+    R2*3
+    d4 r
+    R2*11 %225
+    c4 c8. c16
+    c4 r
+    R2
+    g4 r
+    R2*3 %232
+    r4 e'
+    d4. d8
+    c4 r %235
+    r d
+    c r
+    r d
+    c r\fermata \bar "|." %239 finis
+  }
+}
