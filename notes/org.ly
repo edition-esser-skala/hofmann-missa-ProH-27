@@ -1091,3 +1091,77 @@ SanctusBassFigures = \figuremode {
   <6 4>8 <5 3> <6> <7-> r2
   r1 %20 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoBenedictus
+    r8 \mvTr es\fE-\solo g es r d b d
+    r es es es b'4 b,32( c d es f g a b)
+    b,16. b32 d16. b32 es4 b16. b32 d16. b32 es4
+    d8 es b' b, es es d d
+    c c b b as g as b %5
+    es-\tutti es g es b b' b, b
+    es es16. d32 es8 es c c d d
+    b b c c as as a a
+    b b d f b b b, b
+    c c e c f, f' f, f' %10
+    b, b d b es,! es'16. d32 es8 es
+    c c b b f' f f, f
+    b b' a-\solo a g g f f
+    es d es f b,-\tutti b d b
+    f f' f, f' b b b, b' %15
+    g g a a f f g g
+    es es e e f f a c
+    f, f f, f' g g g, g'
+    c c c, c' f, f f, f'
+    b, d16. c32 d8 b es es f f %20
+    d d es es c c d d
+    es4 r8 c^\critnote as as b b
+    es4 es d8 es b b
+    es es d-\solo d c c b b
+    as g as b es g16. b32 es4 %25
+    \tempoOsanna r r8 es, f8. es16 d8 c
+    b b r b es8. d16 c8 b
+    as4. a8 b b es as,
+    b b b b es g16. b32 es8 es,
+    as8. g16 as8 g as es r es %30
+    es es g es as2
+    es1\fermata \bar "|." %32 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r2 r8 \bo <[6]>4 \bc <[5]>8
+  r2 <6 4>8 <5 3>4.
+  <7->2 <7>
+  <5>4 <6 4>8 <5 3> <8 3>2 \bassFigureExtendersOn
+  q4. q8 \bassFigureExtendersOff r <6> <6 5>4 %5
+  r2 <4>4 <3>
+  <9> <8> <6 5> <5>
+  <6 5>2 q4 <\t \t>
+  r1
+  <7 _!>2 <_-> %10
+  <7>1
+  <6!>2 <6 4>4 <[5] _!>
+  <8 3>2.. \once \bassFigureExtendersOn q8
+  r8 <[6]> <6 5> <_!> r2
+  <4>4 <_!> <9> <8> %15
+  <6 5>2 q
+  q4 <\t \t> <_!>2
+  <\t> <7 _!>
+  r <7 _!>
+  r <6 5>4 <_-> %20
+  <6 5>2 q4 <5>
+  r2 <6 5>4 <4>8 <3>
+  r2 <[6] 5>4 <4>8 <3>
+  <8 3>2.. \once \bassFigureExtendersOn q8
+  r8 \bo <[6 _]> <6 5>2. %25
+  r2 <5 3>4. \once \bassFigureExtendersOn \bc <[5 3]>8
+  r1
+  <8 3>4 <8 6>8 <7 5>2 <6>8
+  <6 4>4 <5 3>2.
+  r8. <[6]> <5->8 r2 %30
+  <6 4>8 <5 3> <6> <7-> r2
+  r1 %32 finis
+}

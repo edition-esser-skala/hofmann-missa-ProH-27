@@ -7,3 +7,11 @@ SanctusViolaII = {
     
   }
 }
+
+BenedictusViolaII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoBenedictus
+    
+  }
+}

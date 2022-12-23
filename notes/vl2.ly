@@ -536,7 +536,46 @@ SanctusViolinoII = {
     as8. g16 f8 es d f'16. as,32 g16. es'32 c16. as32
     \tuplet 6/4 4 { g16 g' f es d es } f,8 d' es,4 r8 b'
     c8. b16 c8 des c b r g
-    as( g) g( b) c2
-    b1\fermata \bar "|." %20 finis
+    as( g) g( b) as2
+    g1\fermata \bar "|." %20 finis
+  }
+}
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoBenedictus
+    es'8\fE es, es32( g f es d es d es) f( d a b) b8 b32( c d es f f g as)
+    as( g f es) es'8 es32( b g' f es b as g) es8\trillE d r4
+    b16(\sf as') as8 as32( g f es d es d es) b16(\sf as') as8 as32( g f es d es d es)
+    f( as b as as g f es) b8 f' es'16(\sf g,) g8 g16 f32( g as g f g)
+    es'16(\sf g,) g8 g16 f32( g as g f g) c16. d32 es([ b g es)] f4\trill %5
+    <es g,>8 es es32( g f es d es d es) f( d a b) b8 b32( c d es f f g as)
+    g( b, a b) b8 b32 b'( c b es d c b) b( as g as) as8 as32( d f es d c b as)
+    as( g f g) g8 g32( c es d c b as g) g( f e f) c'8 c32( b a g f es d es)
+    d8 b32 b( a b) d d( c d) f f( e f) b8 b' b32( as g as g f e f)
+    e16( g) b,8 b32( des c b c b as g) b( as g f) as'8 as32( g f g f es d es) %10
+    d16( f) as,8 as32( c b as b as g f) as( g f es) es8 es32( g f es d es d es)
+    c( es a c) es([ c b a)] d,([ f b d)] f( d c b) d8^\critnote b' f, a'
+    b16(\sf d,) d8 d16 c32( d es d c d) b'16(\sf d,) d8 d16 c32( d es d c d)
+    g16. a32 b32([ f d b)] c4\trill <b d,>8 b b32( d c b a b a b)
+    c( a e f) f8 f32( g a b c c d es) d( f, e f) f8 f32 f'( g f b a g f) %15
+    f( es d es) es8 es32( a c b a g f es) es( d c d) d8 d32( g b a g f es d)
+    d( c h c) g'8 g32( f e d c b a b) a8 f32 f( e f) a a( g a) c c( h c)
+    f8 f f32( es d es d c h c) h8 d' d32( c h as! g f es d)
+    f( es d c) es8 es32( d es d c b a b) a8 c' c32( b a g f es d es)
+    es( d c b) b8 b32( d c b a b a b) c( es d c) c'8 c32( b as g f es d c) %20
+    b( d c b) b'8 b32( as g f es d c b) as( c b as) as'8 as32( g f es d c b as)
+    g8 b es4 es8 f,16. es'32 b,8 d'
+    es,16 <g b,>8 <b g> es b'16 as32([ f d b)] g'( es b g) f8 d'
+    es16(\sf g,) g8 g16 f32( g as g f g) es'16(\sf g,) g8 g16 f32( g as g f g)
+    c16. d32 es([ b g es)] f4\trill es r8 b' %25
+    \tempoOsanna es8. d16 c8 b as as r as
+    f'8. d16 b8 as g g r g
+    as8. g16 f8 es d f'16. as,32 g16. es'32 c16. as32
+    \tuplet 6/4 4 { g16 g' f es d es } f,8 d' es,4 r8 b'
+    c8. b16 c8 des c b r g
+    as( g) g( b) as2
+    g1\fermata \bar "|." %20 finis
   }
 }

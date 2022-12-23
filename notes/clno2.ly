@@ -208,3 +208,20 @@ SanctusClarinoII = {
     c1_\critnote\fermata \bar "|." %20 finis
   }
 }
+
+BenedictusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*21 %21
+    c'4\fE r r g8. g16
+    e4 c' d8 c g8. g16
+    e4 r r2
+    r e4 r %25
+    \tempoOsanna R1*3
+    g4 g8. g16 e4 r8 c
+    c8. c16 c8 c c c r c %30
+    c c16 c c8 c c2
+    c1\fermata \bar "|." %32 finis
+  }
+}
