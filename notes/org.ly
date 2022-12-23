@@ -1040,3 +1040,54 @@ CredoBassFigures = \figuremode {
   r
   r %239 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoSanctus
+    \mvTr es4\f-\tutti es \mvTr es8\p-\senzaOrg g c b
+    as a b b, es f g es
+    c c d d h h c4
+    r8 c' a f \mvTr b4\f-\colOrg b
+    \mvTr b,8\p-\senzaOrg d g f es e f f %5
+    d d es es c c d b
+    \mvTr es4\f-\colOrg es es8 es g f
+    e e f f d d es? d \noBreak
+    c c c c b16 d f d b4\fermata \bar "||"
+    \time 4/4 \tempoPleni
+      b'4 b8 b as! g \tuplet 6/4 4 { \sbOn b16 as g g f es \sbOff } \noBreak %10
+    es4 es8 c a b r g'16 f
+    e c d e f g as! f d b c d es? f g as
+    b8 es, b' b, es g16. b32 es4
+    r r8 es, f8. es16 d8 c
+    b b r b es8. d16 c8 b %15
+    as4. a8 b b es as,
+    b b b b es g16. b32 es8 es,
+    as8. g16 as8 g as es r es
+    es es g es as2
+    es1\fermata \bar "|." %20 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r
+  r
+  r
+  r %5
+  r
+  r2 <7-> 4. \once \bassFigureExtendersOn q8
+  <6 5>2 q4. <[6]>8
+  <7>4 <6!>2.
+  r2 <4 2>8 <[6]>4. %10
+  r2 <6 5>4. <8 3>8
+  <6 5>2 q
+  r4 <4>8 <3> r2
+  r2 \bo <[5 3]>4. \once \bassFigureExtendersOn \bc q8
+  r1 %15
+  <8 3>4 <8 6>8 <7 5>2 <6>8
+  <6 4>4 <5 3>2.
+  r8. <[6]> <5->8 r2
+  <6 4>8 <5 3> <6> <7-> r2
+  r1 %20 finis
+}

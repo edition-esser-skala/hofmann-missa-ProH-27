@@ -513,3 +513,30 @@ CredoViolinoI = {
     <es g,>4 r\fermata \bar "|." %239 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoSanctus
+    es'4\f es r2
+    f,2~\p f8 es16 d es8 f16 g
+    as4~ as16 f' d as g4~ g16 c es g
+    f es es8~ es16 c' a es d4\f d
+    r2 c4~\p c16 f as c, %5
+    b4~ b16 es g b, as4~ as16 d f as,
+    <g es'>4\f q des'~ des16 g b des,
+    c4~ c16 f as f b,4~ b16 g' f b, \noBreak
+    b4 a16( c es c) b d,( f d) b4\fermata \bar "||"
+    \time 4/4 \tempoPleni <f' d' b'> \tuplet 6/4 4 { \sbOn f'16 es d d c b \sbOff } d8-! es-! r4 \noBreak %10
+    <g b, es,>4 \tuplet 6/4 4 { es,16 g f es d es } es'8 d b'16 b,8 b'16
+    b c,8 b'16 as f,8 as'16 as b,8 as'16 g es,8 g'16
+    f16.^\critnote as,32 g16. es'32 f,8 d' es,4 r8 b'
+    es8. d16 c8 b as as r as
+    f'8. d16 b8 as g g r g %15
+    c8. b16 as8 g f f'16. as,32 g16. es'32 c16. as32
+    \tuplet 6/4 4 { g16 g' f es d es } f,8 d' es,4 r8 b'
+    c8. b16 c8 des c b r b
+    c( b) es( des) c2
+    b1\fermata \bar "|." %20 finis
+  }
+}

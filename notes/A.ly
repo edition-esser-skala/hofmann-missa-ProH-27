@@ -884,3 +884,49 @@ CredoAltoLyrics = \lyricmode {
   a --
   men. %239 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'4\fE^\tuttiE g r2
+    R1*2
+    r2 f4 f
+    R1*2 %6
+    g4 g g8 g16 g g8 g
+    g8. g16 f4 f8 f16 f b,8 c16([ d)] \noBreak
+    es4. es8 d2\fermata \bar "||"
+    \time 4/4 \tempoPleni f4 f8 f f g r4 \noBreak %10
+    g g8 g f f r4
+    g f2 es4
+    d8 es16 es es8([ d)] es4 r
+    r r8 g f8. f16 f8 f
+    f f r f es8. es16 es8 es %15
+    as8. g16 f8 es d d es f
+    es4( d) es r8 es
+    es8. es16 es8 es es es r g
+    as g g b as2
+    g1\fermata \bar "|." %20 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+
+  san -- ctus, %4
+
+  san -- ctus Do -- mi -- nus De -- us %7
+  Sa -- ba -- oth, Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li, %10
+  coe -- li et ter -- ra
+  glo -- _ _
+  _ ri -- a tu -- a.
+  O -- san -- na in ex --
+  cel -- sis, o -- san -- na in ex -- %15
+  cel -- sis, in ex -- cel -- sis, in ex --
+  cel -- sis, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel --
+  sis. %20 finis
+}
