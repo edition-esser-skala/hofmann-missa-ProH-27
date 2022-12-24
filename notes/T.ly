@@ -962,7 +962,7 @@ BenedictusTenore = {
     \clef "treble_8"
     \key es \major \time 4/4 \autoBeamOff \tempoBenedictus
     R1*5 %5
-    r2 r4 \mvTr f~\fE^\tuttiE
+    r2 r4 \mvDl f~\fE^\tuttiE
     f es es d8 d
     d4 c8 c c4 c8 c
     b8. b16 b4 d4. d8
