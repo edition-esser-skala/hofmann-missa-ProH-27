@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieViolinoII = {
   \relative c' {
@@ -577,5 +577,84 @@ BenedictusViolinoII = {
     c8. b16 c8 des c b r g
     as( g) g( b) as2
     g1\fermata \bar "|." %20 finis
+  }
+}
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoAgnus
+    R1*6 %6
+    g'4.\fE f16( es) f8 f r f
+    f d16 d d8 d d c r16 c\p c c
+    r des des des r des des des r c c c r c c c
+    r b b b r b b b b4 r %10
+    R1*2
+    r2 g'4.\f g8
+    g( f) r f f f es d
+    d c r16 es\p es es r es es es r es es es %15
+    r es es es r es es es r d d d r d d d
+    r des des des r des des des r c c c r c c c
+    b4 r r2
+    r r4 d8\f d
+    f4 f8 f f es r es %20
+    es4. es8 es4 d8 c \noBreak
+    d1\fermata \bar "||"
+    \time 4/4 \tempoDona
+      es'16 es, es es es es' es es es es, es es es es' es es \noBreak
+    c c, c c c c' c c d b, b b b d' d d
+    es es, es es es es' es es es c, c c c c' c c %25
+    d b, b b \kneeBeam b b'' b b b b, b b b b d b
+    g' g, g g g g' g g f f, f f f c' c c
+    d b, b b b f'' f f f b,, b b \kneeBeam b as''! as as
+    g es, es es es es' es es es es, es es es es' es es
+    c c, c c c c' c c b b, b b b b' b b %30
+    g' es, es es es g' g g f f, f f f a' a a
+    b b, b b b b' b b b b, b b b b' b b
+    g es, es es es es' es es es c, c c c c' c c
+    d b, b b b d' d d d b, b b b d' d d
+    es es, es es es es' es es es es, es es es es' es es %35
+    c c, c c c c' c c d d, d d d d' d d
+    es es, es es es es' es es es f, f f f es' es es
+    d b, b b b des' des des des f, f des' des es, es des'
+    c as, as as as c' c c c es, es c' c d,!-\critnote d c'
+    h g' g g es c' c c d, c' c c d, h' h h %40
+    c,4 r r8 c\p c8.(\trill h32 c)
+    h4.( b8) a4.( as8)
+    g4 h c\f h
+    es,\p( h) c8 es'\f es es
+    as16 f, f f d' b, b b g'' es, es es c' as, as as %45
+    f'' d, d d b' g, g g es'' c, c c as' c, c c
+    as' b, b b f'' as, as as g4 r
+    r8 es'\pE es8.(\trill d32 es) d4.( des8)
+    c4. c,8 d!2
+    \appoggiatura es16 es'4(\f d) r8 f16( d) d'( h f d) %50
+    c4( h) r r8 g
+    f1
+    g4 d(\p es) b
+    es16\f es es es es es' es es es es, es es es es' es es
+    c c, c c c c' c c d b, b b b d' d d %55
+    es es, es es es es' es es es c, c c c c' c c
+    d b, b b \kneeBeam b b'' b b b b, b b b b d b
+    g' g, g g g g' g g f f, f f f c' c c
+    d b, b b b f'' f f f b,, b b \kneeBeam b as''! as as
+    g es, es es es es' es es es es, es es es es' es es %60
+    c c, c c c c' c c b b, b b b b' b b
+    g' es, es es es g' g g f f, f f f a' a a
+    b b, b b b b' b b b b, b b b b' b b
+    g es, es es es es' es es c c, c c c c' c c
+    d b, b b b d' d d d b, b b b d' d d %65
+    es es, es es es es' es es es es, es es es es' es es
+    c c, c c c c' c c d d, d d d d' d d
+    es es, es es es es' es es es f, f f f es' es es
+    d b, b b b d' d d e c, c c c e' e e
+    f f, f f f c' c c d b, b b b d' d d %70
+    es! es, es es b'' b, b b c c' c c c es, es es
+    d b' b b b,4. a16 b c8 b
+    a4 as4. g16 as b8 as
+    g16 b es es es g, es' es es f, es' es b,8 d'
+    es,4 es'4.\p d16 es f8 es %75
+    d b16( c) d( es f d) es8 \tuplet 3/2 8 { b'16\f g es } f,8 d'
+    es,4 r r2\fermata \bar "|." %77 finis
   }
 }

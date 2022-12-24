@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieAlto = {
   \relative c' {
@@ -60,7 +60,7 @@ KyrieAlto = {
     g4. f16[ es] f2
     g4 r r2 %60
     r r8 g f4
-    g r r2\fermata \bar "|."
+    g r r2\fermata \bar "|." %62 finis
   }
 }
 
@@ -994,4 +994,145 @@ BenedictusAltoLyrics = \lyricmode {
   san -- na in ex -- cel -- sis, o -- %30
   san -- na in ex -- cel --
   sis. %32 finis
+}
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*6 %6
+    \mvTr g'4.\fE^\tuttiE g8 f f r f
+    f d16 d d8 d d c c\pE c
+    des2 c
+    b b4 r %10
+    R1*2
+    r2 g'4.\fE g8
+    g f r f f f16 f es8 d
+    d c es\pE es es2 %15
+    es d4. d8
+    des4 des c2
+    b4 r r2
+    r r4 f'8\fE f
+    f4 f8 f f es r es %20
+    es4. es8 es4( d8[ c)] \noBreak
+    d1\fermata \bar "||"
+    \time 4/4 \tempoDona R1*3 %25
+    b'2 d,
+    g a,
+    b4 as'!4. g16[ as] b8[ as]
+    g[ f] es4 r8 g16[ f] es[ d c b]
+    as4 as'4. f16[ g] as[ f b as] %30
+    g2 a
+    b4 f2 b4~
+    b g8[ a16 b] c2
+    f, f
+    g4. as!8 b2~ %35
+    b4 as r8 f4 f8
+    g4 g f2
+    f4 r8 f( as!4 b)
+    as4. es8 g4 as
+    g1 %40
+    g4 r r2
+    R1
+    r2 g4 g
+    r2 r8 g4 g8
+    as2 g %45
+    f es
+    f es4 r
+    R1*2
+    g4 f r8 f4 f8 %50
+    es4 d r r8 g
+    f1
+    g4 r r2
+    R1*3 %56
+    b2 d,
+    g a,
+    b4 as'!4. g16[ as] b8[ as]
+    g[ f] es4 r8 g16[ f] es[ d c b] %60
+    as4 as'4. f16[ g] as[ f b as]
+    g2 a
+    b4 f2 b4~
+    b g8[ a16 b] c2
+    f, f %65
+    g4. as!8 b2~
+    b4 as r8 f4 f8
+    g4 g \once \tieDashed f2~
+    f4 f g2
+    f f %70
+    es4( g) f2
+    f4 b4. a16[ b] c8[ b]
+    a4 as4. g16[ as] b8[ as]
+    g4. f16[ es] f2
+    g4 r r2 %75
+    r r8 g( f4)
+    g r r2\fermata \bar "|." %77 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %7
+  tol -- lis pec -- ca -- ta mun -- di: Mi -- se --
+  re -- re
+  no -- bis. %10
+
+  A -- gnus %13
+  De -- i, qui tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- re -- %15
+  re, mi -- se --
+  re -- re no --
+  bis.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- %20
+  ca -- ta mun --
+  di:
+
+  Do -- na %26
+  no -- bis
+  pa -- _ _ _
+  _ cem, pa -- _
+  _ _ _ _ %30
+  _ _
+  cem, pa -- _
+  _ _
+  cem, pa --
+  _ _ _ %35
+  cem, do -- na
+  no -- bis pa --
+  cem, pa --
+  cem, pa -- _ _
+  _ %40
+  cem.
+
+  Do -- na,
+  do -- na,
+  do -- na %45
+  no -- bis
+  pa -- cem.
+
+  Do -- na, do -- na %50
+  no -- bis pa --
+  _
+  cem.
+
+  Do -- na %57
+  no -- bis
+  pa -- _ _ _
+  _ cem, do -- _ %60
+  _ _ _ _
+  na no --
+  bis pa -- _
+  _ _
+  cem, pa -- %65
+  _ _ _
+  cem, do -- na
+  no -- bis pa --
+  cem, do --
+  na no -- %70
+  bis __ pa --
+  cem, pa -- _ _
+  _ _ _ _
+  _ _ _
+  cem, %75
+  pa --
+  cem. %77 finis
 }

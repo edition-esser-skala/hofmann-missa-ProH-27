@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieTimpani = {
   \relative c {
@@ -198,5 +198,38 @@ BenedictusTimpani = {
     c8. c16 c8 c c c r c %30
     c c c c c c16 c c8 c
     c1\fermata \bar "|." %32 finis
+  }
+}
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*21 %21
+    R1\fermata \bar "||"
+    \time 4/4 \tempoDona R1*12 %34
+    c4\fE c8. c16 c4 r %35
+    r2 r4 g
+    c r r2
+    g4 r r2
+    R1*8 %46
+    r4 g8.\fE g16 c4 r
+    R1*2
+    c4\fE g r2 %50
+    R1
+    r2 g4 g8 g
+    c4 r r2
+    R1*12 %65
+    c4-\critnote c8. c16 c4 r
+    r2 r4 g
+    c r r2
+    g4 r r2
+    R1*2 %71
+    g4 r r2
+    R1
+    r4 g8. g16 g4 g
+    c r r2 %75
+    r r8 c\fE g g
+    c4 r r2\fermata \bar "|." %77 finis
   }
 }

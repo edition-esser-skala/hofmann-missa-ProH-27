@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieClarinoII = {
   \relative c' {
@@ -223,5 +223,43 @@ BenedictusClarinoII = {
     c8. c16 c8 c c c r c %30
     c c16 c c8 c c2
     c1\fermata \bar "|." %32 finis
+  }
+}
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*21 %21
+    R1\fermata \bar "||"
+    \time 4/4 \tempoDona R1*12 %34
+    e4\fE e8. e16 e4 r %35
+    r2 r4 g
+    c2 d
+    g,4 r r2
+    R1
+    e4 e8. e16 e4 e %40
+    e r r2
+    R1
+    r2 e4\fE e
+    R1*3 %46
+    r4 g8.\fE g16 g4 r
+    R1*2
+    c4\fE g r2 %50
+    R1
+    r2 g
+    g4 r r2
+    R1*12 %65
+    e4 e8. e16 e4 r
+    r2 r4 g
+    c2_\critnote d
+    g,4 r r2
+    R1*2 %71
+    g4 r r2
+    R1
+    r4 c g g8. g16
+    e4 r r2 %75
+    r r8 g\fE g8. g16
+    e4 r r2\fermata \bar "|." %77 finis
   }
 }

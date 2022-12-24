@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieSoprano = {
   \relative c' {
@@ -960,10 +960,147 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %32 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*6 %6
+    \mvTr es'4.\fE^\tuttiE d16([ c)] c8 h r d
+    d f,16 f f8 f f es es\p es
+    e2 es
+    es4( d) es r %10
+    R1*2
+    r2 b'4.\f es8
+    es d r d d as16 as g8 f
+    f es g\p g as2 %15
+    a b4. b8
+    b4 b b( a)
+    b r r2
+    r r4 b8\fE b
+    as!4 as8 as as g r g %20
+    ges4. ges8 ges4( f8[ es)] \noBreak
+    f1\fermata \bar "||"
+    \time 4/4 \tempoDona es'2 g, \noBreak
+    c d,
+    es4 es'4. d16[ es] f8[ es] %25
+    d[ c] b4 r8 d16[ c] b[ a g f]
+    es4 es'4. c16[ d] es[ c f es]
+    d4. es16[ f] b,4. c16[ d]
+    es4 b2 es4~
+    es c8[ d16 es] f2 %30
+    b,4 b( c2)
+    d4 r r2
+    R1*2
+    es2 g, %35
+    c d,
+    es4 es'4. d16[ es] f8[ es]
+    d b des4. c16[ des] es8[ des]
+    c8 as c4. h16[ c] d8[ c]
+    h[ g] c2 h4 %40
+    c r r2
+    R1
+    r2 es4 d
+    r2 r8^\critnote es4 es8
+    es4 d4. g,8 c4~ %45
+    c b4. es,8 as4~
+    as8[ g16 as] b8[ as] g4 r
+    R1*2
+    es'4 d r8 d4 d8 %50
+    c4 h r8 g es'4~
+    es8[ d16 es] f8[ es] d2
+    es4 r r2
+    es g,
+    c d, %55
+    es4 es'4. d16[ es] f8[ es]
+    d[ c] b4 r8 d16[ c] b[ a g f]
+    es4 es'4. c16[ d] es[ c f es]
+    d4. es16[ f] b,4. c16[ d]
+    es4 b2 es4~ %60
+    es c8[ d16 es] f2
+    b,4 b( c2)
+    d4 r r2
+    R1*2 %65
+    es2 g,
+    c d,
+    es4 es'4. d16[ es] f8[ es]
+    d4 d( e2)
+    f4 c d2 %70
+    es!4 b c2
+    b4 r r es~
+    es8[ d16 es] f8[( es]) d4. c16[( d])
+    es8[( b] es2 d4)
+    es r r2 %75
+    r r8 es4( d8)
+    es4 r r2\fermata \bar "|." %77 finis
+  }
+}
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %7
+  tol -- lis pec -- ca -- ta mun -- di: Mi -- se --
+  re -- re
+  no -- bis. %10
+
+  A -- gnus %13
+  De -- i, qui tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- re -- %15
+  re, mi -- se --
+  re -- re no --
+  bis.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- %20
+  ca -- ta mun --
+  di:
+  Do -- na
+  no -- bis
+  pa -- _ _ _ %25
+  _ cem, pa -- _
+  _ _ _ _
+  _ _ _ _
+  cem, pa -- _
+  _ _ %30
+  cem, pa --
+  cem,
+
+  do -- na %35
+  no -- bis
+  pa -- _ _ _
+  _ cem, pa -- _ _
+  _ cem, pa -- _ _
+  _ _ _ %40
+  cem.
+
+  Do -- na,
+  do -- na
+  no -- bis pa -- _ %45
+  _ _ _
+  _ cem.
+
+  Do -- na, do -- na %50
+  no -- bis pa -- _
+  _ _
+  cem.
+  Do -- na
+  no -- bis %55
+  pa -- _ _ _
+  _ cem, pa -- _
+  _ _ _ _
+  _ _ _ _
+  cem, pa -- _ %60
+  _ _
+  cem, pa --
+  cem,
+
+  do -- na %66
+  no -- bis
+  pa -- _ _ _
+  cem, pa --
+  cem, pa -- _ %70
+  _ _ _
+  cem, do --
+  na no -- bis
+  pa --
+  cem, %75
+  pa --
+  cem. %77 finis
+}

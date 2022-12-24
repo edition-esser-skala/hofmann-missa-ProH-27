@@ -1,9 +1,8 @@
-\version "2.22.0"
+\version "2.24.0"
 
 #(define option-movement-title-format "number-title")
 #(define option-print-all-bar-numbers #t)
 \include "ees.ly"
-% \include "ees_articulate.ly"
 
 
 tempoKyrie = \tempoMarkup "Adagio"
@@ -18,6 +17,8 @@ tempoSanctus = \tempoMarkup "Un poco andante"
   tempoPleni = \tempoMarkup "Un poco andante"
 tempoBenedictus = \tempoMarkup "Moderato allegro"
   tempoOsanna = \tempoMarkup "Allegro"
+tempoAgnus = \tempoMarkup "Adagio"
+  tempoDona = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

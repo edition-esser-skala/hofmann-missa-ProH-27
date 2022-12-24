@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 KyrieTenore = {
   \relative c' {
@@ -1020,4 +1020,133 @@ BenedictusTenoreLyrics = \lyricmode {
   san -- na in ex -- cel -- sis, o -- %30
   san -- na in ex -- cel --
   sis. %32 finis
+}
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*6 %6
+    \mvTr c4.\fE^\tuttiE c8 as as r as
+    g g16 g g8 g g g g\pE g
+    g2 ges
+    f es4 r %10
+    R1*2
+    r2 b'4.\fE b8
+    b b r f f f16 f g8 g
+    g g g\pE g es4. f8 %15
+    ges4. f16([ es)] f4. f8
+    g2( f)
+    f4 r r2
+    r r4 d'8\fE b
+    b4 b8 b b b r b %20
+    c4. c8 b2 \noBreak
+    b1\fermata \bar "||"
+    \time 4/4 \tempoDona R1*6 %28
+    es2 g,
+    c d, %30
+    es4 es'4. d16[ es] f8[ es]
+    d[ c] b4 r8 d16[ c] b[ a g f]
+    es4 es'4. c16[ d] es[ c f es]
+    d4. es16[ f] b,4. c16[ d]
+    es4 b2 \once \tieDashed es4~ %35
+    es c b2~
+    b4 b c2
+    b4 r8 des( f4) es
+    es4. c8 es4 d~
+    d es d2 %40
+    c4 r r2
+    R1
+    r2 c4 h
+    r2 r8 c4 c8
+    c4 b!2 as4~ %45
+    as g8[ as16 b] c2
+    b^\critnote b4 r
+    R1*2
+    b4 b r8 g4 g8 %50
+    g4 g r r8 c
+    c2 b!
+    b4 r r2
+    R1*6 %59
+    es2 g, %60
+    c d,
+    es4 es'4. d16[ es] f8[ es]
+    d[ c] b4 r8 d16[ c] b[ a g f]
+    es4 es'4. c16[ d] es[ c f es]
+    d4. es16[ f] b,4. c16[ d] %65
+    es4 b2 es4~
+    es c b2~
+    b c
+    b4 d( c2)
+    c4 c( b2) %70
+    b4( es) es2
+    d4 d4. c16[ d] es8[ d]
+    c4 d8[ es] f2
+    b,1
+    b4 r r2 %75
+    r r4 b
+    b r r2\fermata \bar "|." %77 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui %7
+  tol -- lis pec -- ca -- ta mun -- di: Mi -- se --
+  re -- re
+  no -- bis. %10
+
+  A -- gnus %13
+  De -- i, qui tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- re -- er, %15
+  mi -- se -- re -- re
+  no --
+  bis.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- %20
+  ca -- ta mun --
+  di:
+
+  Do -- na %29
+  no -- bis %30
+  pa -- _ _ _
+  _ cem, pa -- _
+  _ _ _ _
+  _ _ _ _
+  cem, pa -- _ %35
+  _ _
+  \xE cem, pa --
+  \x cem, pa -- cem,
+  do -- na no -- _
+  bis pa -- %40
+  cem.
+
+  Do -- na,
+  do -- na
+  no -- bis pa -- %45
+  _ _
+  _ cem.
+
+  Do -- na, do -- na %50
+  no -- bis pa --
+  _ _
+  cem.
+
+  Do -- na %60
+  no -- bis
+  pa -- _ _ _
+  _ cem, pa -- _
+  _ _ _ _
+  _ _ _ _ %65
+  cem, pa -- _
+  cem, pa --
+  _
+  cem, pa --
+  cem, do -- %70
+  na __ no --
+  bis pa -- _ _
+  _ _ _
+  _
+  cem, %75
+  pa --
+  cem. %77 finis
 }
